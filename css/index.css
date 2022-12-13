@@ -1,0 +1,16 @@
+body{
+   
+    background-color:rgb( 197, 228, 231)
+   
+}
+
+.text{
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+}
+.top-text{
+
+    margin: 0;
+    margin-top: 10%;
+}
