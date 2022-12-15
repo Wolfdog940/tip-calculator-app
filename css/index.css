@@ -1,7 +1,54 @@
 body{
    
-    background-color:rgb( 197, 228, 231)
-   
+    background-color:rgb( 197, 228, 231);
+    font-family: 'Space Mono', monospace;
+}
+.container{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.right-spliter{
+    display: flex;
+    border-radius: 5%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    width: 300px;
+    
+    background-color: rgb( 0, 73, 77);
+    
+    
+}
+input{
+    width: 250px;
+}
+
+.left-spliter{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+    
+}
+.top-text{
+
+    color: rgb( 0, 73, 77)
+}
+.spliter{
+    
+    
+     border-radius: 5%;
+     margin-top: 50px;
+     display: flex;
+     background-color: white;
+     
+     height: 400px;
+
 }
 
 .text{
@@ -13,4 +60,9 @@ body{
 
     margin: 0;
     margin-top: 10%;
+}
+.botton-text{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
 }
