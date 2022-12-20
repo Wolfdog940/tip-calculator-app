@@ -54,6 +54,13 @@ body{
     color: rgb(0, 73, 77);
     
 }
+.reset:focus{
+    background-color: rgb(170, 222, 215);
+
+}
+.reset:hover,.discont:hover,.discont-o:hover{
+    background-color: rgb(78, 226, 206);
+}
 
 .right-spliter{
     display: flex;
@@ -143,3 +150,7 @@ input{
     color: gray;
     margin-left:3px;
 }
+.hidden{
+    display: none;
+}
+

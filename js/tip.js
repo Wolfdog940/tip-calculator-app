@@ -8,7 +8,7 @@ let input =document.getElementById("bill");
     let people=document.getElementById("people")
     let tipAmound =document.getElementById("tipAmound")
     let total=document.getElementById("total")
-    let reset =document.getElementById("reset")
+    let reset =document.getElementById("resetNumber")
 
 
     
@@ -93,7 +93,7 @@ let input =document.getElementById("bill");
         }
        
     })
-    cincuenta.addEventListener("keydown",function(){
+    cincuenta.addEventListener("mousedown",function(){
         
         let input =document.getElementById("bill").value
         let people=document.getElementById("people").value
@@ -112,7 +112,6 @@ let input =document.getElementById("bill");
         }
        
     })
-
     custom.addEventListener("keydown",function(){
         
         let input =document.getElementById("bill").value
@@ -125,7 +124,7 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=ddiscountPerPerson.toFixed(2)
+        tipAmound.textContent=discountPerPerson.toFixed(2)
         total.textContent=TotalPerPerson.toFixed(2)
         
         
@@ -141,14 +140,30 @@ let input =document.getElementById("bill");
 
     reset.addEventListener("mousedown",function(){
         
-        let input =document.getElementById("bill").value=""
-        let people=document.getElementById("people").value=""
-        let custom=document.getElementById("custom").value=""
-
-        input
-        people
-        custom
+        
+        
+        tipAmound.textContent="$0.00"
+        total.textContent="$0.00"
+        input.value=""
+        people.value=""
+        custom.value=""
         
        
     })
+
+    people.addEventListener("click",function(){
+        let ocultar =document.getElementById("ocultar")
+        ocultar.classList.toggle("hidden")
+      
+
+   
+
+
+    })
+
+
+    people.addEventListener("blur",function(){
+        let ocultar =document.getElementById("ocultar")
+        ocultar.classList.toggle("hidden")
+       })
  
