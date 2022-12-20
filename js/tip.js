@@ -25,8 +25,8 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=discountPerPerson
-        total.textContent=TotalPerPerson
+        tipAmound.textContent=discountPerPerson.toFixed(2)
+        total.textContent=TotalPerPerson.toFixed(2)
         }else{
             alert("Number of People can´t be zero")
 
@@ -45,8 +45,8 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=discountPerPerson
-        total.textContent=TotalPerPerson
+        tipAmound.textContent=discountPerPerson.toFixed(2)
+        total.textContent=TotalPerPerson.toFixed(2)
         }else{
             alert("Number of People can´t be zero")
 
@@ -65,8 +65,8 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=discountPerPerson
-        total.textContent=TotalPerPerson
+        tipAmound.textContent=discountPerPerson.toFixed(2)
+        total.textContent=TotalPerPerson.toFixed(2)
         }else{
             alert("Number of People can´t be zero")
 
@@ -85,8 +85,8 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=discountPerPerson
-        total.textContent=TotalPerPerson
+        tipAmound.textContent=discountPerPerson.toFixed(2)
+        total.textContent=TotalPerPerson.toFixed(2)
         }else{
             alert("Number of People can´t be zero")
 
@@ -104,8 +104,8 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=discountPerPerson
-        total.textContent=TotalPerPerson
+        tipAmound.textContent=discountPerPerson.toFixed(2)
+        total.textContent=TotalPerPerson.toFixed(2)
         }else{
             alert("Number of People can´t be zero")
 
@@ -125,8 +125,8 @@ let input =document.getElementById("bill");
         let TotalPerPerson=(parseInt(input)+parseInt(discount))/parseInt(people)
         let discountPerPerson=discount/people
         
-        tipAmound.textContent=discountPerPerson+" €"
-        total.textContent=TotalPerPerson+" €"
+        tipAmound.textContent=ddiscountPerPerson.toFixed(2)
+        total.textContent=TotalPerPerson.toFixed(2)
         
         
         
@@ -148,7 +148,7 @@ let input =document.getElementById("bill");
         input
         people
         custom
-        console.log("hola")
+        
        
     })
  
