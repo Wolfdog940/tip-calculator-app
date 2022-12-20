@@ -28,27 +28,55 @@
     <div class="spliter">
       <div class="left-spliter">
         <div class="top-left">
-          <div><span>Bill</span></div>
-          <div><input type="text"></div>
+          <div>
+            <span>Bill</span>
+          </div>
+          <div>
+            <input type="number" id="bill" placeholder="0.00" ></div>
         </div>
         <div class="midle-left">
-          <div><span>select tip %</span></div>
-          <div><button>5%</button><button>10%</button><button>15%</button></div>
-          <div><button>25%</button><button>50%</button><span>a pagar</span></div>
+          <div>
+            <span>select tip %</span>
+          </div>
+          <div>
+            <button id="cinco">5%</button>
+            <button id ="diez">10%</button>
+            <button id="quince">15%</button>
+          </div>
+          <div class="tip-container">
+            <button id ="veinticinco">25%</button>
+            <button id ="cincuenta">50%</button>
+            <input type="text" placeholder="Custom" id="custom"  class="custom">
+          </div>
         </div>
         <div class="botton-left">
-          <div class="botton-text"><div><span>Number of People</span></div>
-          <div><span>Can´t be 0</span></div></div>
-          <div><input type="text"></div>
+          <div class="botton-text">
+            <div>
+              <span>Number of People</span>
+            </div>
+          <div>
+            <span>Can´t be zero</span>
+          </div>
+        </div>
+          <div><input type="text" id="people"></div>
         </div>
       </div>
-      <div class="right-spliter"></div>
+      <div class="right-spliter">
+        
+          <div class="div-amound"><div class=amound><span>Tip Amound</span><span>/person</span></div>
+          <div id="tipAmound">$0.00</div></div>
+          <div class="div-total"><div class=total><span>Total</span><span>/person</span></div>
+          <div id="total">$0.00</div></div>
+          <div class="button" id ="reset"><button>reset</button></div>
+        
+        
+      </div>
     </div>
 
   </div>
 
 
-
+  <script type="module" src="./js/tip.js"></script>
 </body>
 
 </html>
