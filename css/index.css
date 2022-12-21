@@ -1,7 +1,10 @@
-body{
+body,html{
+   width: 100%;
    
     background-color:rgb( 197, 228, 231);
     font-family: 'Space Mono', monospace;
+    display: flex;
+    align-items: center;
 }
 
 .bill:focus {
@@ -154,3 +157,70 @@ input{
     display: none;
 }
 
+@media screen and (max-width: 700px) {
+
+    .contenedor{margin-top: 0px!important;
+        overflow:auto;
+    }
+    .spliter{
+        width: 80%;
+        height: 500px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1px;
+        
+    }
+    .top-text{
+        padding-top:  5px!important;
+        padding-bottom: 2px!important;
+    }
+    .left-spliter{
+        width: 90%;
+        height: 30%;
+        margin: 3px;
+        margin-left: 50px;
+        font-size: xx-small;
+    
+    }
+    
+    .botton-text{
+        width: 80%;
+    }
+    
+    .bill,.people{
+        width:80%
+    }
+    .middle-left{
+        width: 80% ;
+        display: flex;
+        flex-direction: row;
+    
+        
+    }
+    .hidden{
+        display: none;
+        margin: 0%;
+    }
+    
+    .top-buttons,.custom{
+    width: 80%;
+    
+    
+    
+    }
+    
+    .right-spliter{
+        width: 80%;
+        height: 50%;
+        margin:auto;
+        height: 30%;
+    
+    }
+    
+    
+    }
+    
+
+    
