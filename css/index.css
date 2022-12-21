@@ -38,6 +38,7 @@ body,html{
     width: 90px;
 }
 
+
 .discont-o {
     background-color: rgb(38, 192, 171);
     color: rgb(0, 73, 77);
@@ -214,18 +215,20 @@ input{
     
     
     }
+    input{
+        height:30px ;
+        font-size: small;
+    }
+   
     
     .right-spliter{
         width: 80%;
         
-        margin:auto;
-        height: 45%;
+        margin: 60px;
+        height: 50%;
     
     }
-   .dollar{
-    margin-top: 10px;
-   }
-   .user{margin-top: 10px;}
+   
     
     
     }
