@@ -22,8 +22,7 @@ body,html{
     width: 100%;
 }
 
-.bill::placeholder
- {
+.bill::placeholder{
     color: rgb(0, 73, 77)
 }
 
@@ -47,11 +46,13 @@ body,html{
 }
 
 .custom {
-    width: 90px;
+    width: 90px!important;
     border: none;
     font-size: medium;
 }
-
+.intut-div{
+    width: 100%;
+}
 .custom:focus {
     outline: 2px solid rgb(38, 192, 171);
 }
@@ -156,9 +157,18 @@ input{
     margin-top:6px;
     color: gray;
     margin-left:3px;
+    margin:auto;
 }
 .hidden{
     display: none;
+    
+}
+
+.midle-left{
+    display: flex;
+    
+    flex-direction: column;
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -173,6 +183,7 @@ input{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
         margin-top: 1px;
         
     }
@@ -181,6 +192,9 @@ input{
         padding-bottom: 2px!important;
     }
     .left-spliter{
+        display: flex!important;
+        align-items: center;
+        justify-content: space-around!important;
         width: 90%;
         height: 30%;
         margin: 3px;
@@ -196,40 +210,58 @@ input{
     .bill,.people{
         width:80%
     }
+
+    .botton-text{
+        margin-top: 3px;
+        width: auto;
+    }
     .middle-left{
-        width: 80% ;
-        display: flex;
-        flex-direction: row;
-    
-        
-    }
-    .hidden{
-        display: none;
-        margin: 0%;
-    }
-    
-    .top-buttons,.custom{
-    width: 80%;
-    
-    
-    
-    
-    }
-    input{
-        height:30px ;
-        font-size: small;
-    }
+    width: 90%;
    
     
-    .right-spliter{
-        width: 80%;
         
-        margin: 60px;
+    }
+    
+    
+    .top-buttons{
+        
+    display: flex;
+    justify-content: space-between;
+    
+    width: 80%;
+    }
+    .botton-buttons{
+        width: 80%;
+        margin-bottom: 1px;
+    }
+    
+ .bill,.people{
+    width: 100%;
+    height: 30px;
+ }
+
+    
+    .right-spliter{
+        width: 90%;
+        margin-top: 0%;
+        margin-right: 0%;
+        
         height: 50%;
     
     }
-   
-    
+    .left-spliter{
+       margin: auto;
+    }
+    .discont,.discont-o{
+        font-size: small;
+        width: 80px;
+    }
+  
+    .custom{
+        margin-left: 1px;
+        width: 75px!important;
+        font-size: x-small;
+    }
     
     }
     

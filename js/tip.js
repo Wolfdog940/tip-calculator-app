@@ -1,4 +1,4 @@
-let input =document.getElementById("bill");
+    let input =document.getElementById("bill");
     let cinco=document.getElementById("cinco")
     let diez=document.getElementById("diez")
     let quince=document.getElementById("quince")
