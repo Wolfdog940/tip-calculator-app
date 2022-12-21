@@ -1,3 +1,6 @@
+* {
+    -webkit-font-smoothing: antialiased;
+   }
 body,html{
    width: 100%;
    
@@ -209,15 +212,20 @@ input{
     
     
     
+    
     }
     
     .right-spliter{
         width: 80%;
         
         margin:auto;
-        height: 50%;
+        height: 45%;
     
     }
+   .dollar{
+    margin-top: 10px;
+   }
+   .user{margin-top: 10px;}
     
     
     }
